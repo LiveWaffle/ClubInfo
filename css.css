@@ -7,13 +7,30 @@ body {
         to bottom,
         white 0%,
         white 50%,
-        #2596be 50%,
-        #2596be 100%
+        #0693e3 50%,
+        #0693e3 100%
     );
+    overflow: hidden;
+
 }
 
 h1 {
     font-family: "Noto Sans", sans-serif;
     color: black;
 
+}
+
+.wave {
+    background: url(svg.png);
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+  }
+@keyframes wave {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-25%);}
+    100% {transform: translateX(-50%);}
 }

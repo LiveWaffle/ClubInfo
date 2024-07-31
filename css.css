@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 50%,
+        #2596be 50%,
+        #2596be 100%
+    );
+}
+
+h1 {
+    font-family: "Noto Sans", sans-serif;
+    color: black;
+
+}

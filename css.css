@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+.layout {
+    width: 1920px;
+    height: 1080px;
+  
+    display: grid;
+    grid:
+      "header" auto
+      "main" 1fr
+      "footer" auto
+      / 1fr;
+    gap: 8px;
+  }
+  
+  .header { grid-area: header; }
+  .main { grid-area: main; }
+  .footer { grid-area: footer; 
+    z-index: 2;
+    padding: 10px; 
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
 
 body {
     height: 100vh;
@@ -19,7 +44,10 @@ h1 {
     color: black;
 
 }
-
+p {
+    font-family: "Noto Sans", sans-serif;
+    color: #2e3d47;
+}
 .wave {
     background: url(wave.svg) no-repeat;
     background-size: cover;
@@ -27,13 +55,23 @@ h1 {
     position: absolute;
     width: 200%;
     height: 70%;
-    animation: wave 15s -100s ease infinite;
+    animation: wave 20s ease-in-out infinite;
     transform: translate3d(0, 0, 0);
     bottom: 0;
+    z-index: 1;
 
   }
   @keyframes wave {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(-50%); } 
-    100% { transform: translateX(0); }
+    0% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(-50%);
+    }
+    60% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }

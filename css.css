@@ -32,8 +32,8 @@ body {
         to bottom,
         white 0%,
         white 50%,
-        #38a9e9 50%,
-        #38a9e9 100%
+        #0099ff 50%,
+        #0099ff 100%
     );
 
 
@@ -58,13 +58,14 @@ p {
     background-size: cover;
     background-position: center;
     position: absolute ;
-    top: 99vh;
     width: 200%;
-    height: 70%;
+    height: 40%;
     animation: wave 20s ease-in-out infinite;
     transform: translate3d(0, 0, 0);
     bottom: 0;
-    z-index: 100;
+    z-index: 1;
+    top: -86vh;
+    margin-top: 1000px;
 
   }
   @keyframes wave {

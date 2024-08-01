@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap');
 .layout {
     width: 1920px;
     height: 1080px;
@@ -31,20 +30,18 @@ body {
     background: linear-gradient(
         to bottom,
         white 0%,
-        white 50%,
+        #d3d3d3 50%,
         #0099ff 50%,
         #0099ff 100%
     );
-
-
     overflow-y: auto;
     overflow-x: hidden;
 
 }
 
 h1 {
-    font-family: "Noto Sans", sans-serif;
-    color: black;
+    font-family: "Montserrat", sans-serif;
+        color: rgb(39, 39, 39);
     font-size: 400%;
 
 }
@@ -60,7 +57,7 @@ p {
     position: absolute ;
     width: 200%;
     height: 40%;
-    animation: wave 20s ease-in-out infinite;
+    animation: wave 10s ease-in-out infinite;
     transform: translate3d(0, 0, 0);
     bottom: 0;
     z-index: 1;
@@ -82,3 +79,17 @@ p {
         transform: translateX(0);
     }
 }
+body.DarkMode {
+    background: linear-gradient(
+        to bottom,
+        #272727 0%,
+        #272727 50%,
+        #0099ff 50%,
+        #0099ff 100%
+        
+    );}
+
+body.DarkMode h1 {
+            color: #ffffff;
+
+    }

@@ -133,8 +133,11 @@ body.Dark .wave {
 @media screen and (max-width: 600px) {
     h1 {
         position: absolute;
-        text-align: left;
+        text-align: center;
         font-size: 30px;
+        right:1vw;
+        left: .5vw;
+        top:20vh;
     }
     #Info {
         font-size: 20px;

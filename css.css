@@ -24,15 +24,23 @@
     height: 150vh;
     position: relative;
 }
+button  {
+    background: none;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    z-index: 1;
 
+}
 body {
     height: 100vh;
     background: linear-gradient(
         to bottom,
         white 0%,
         #d3d3d3 50%,
-        #0099ff 50%,
-        #0099ff 100%
+        #0066ff 50%,
+        #0066ff 100% 
     );
     overflow-y: auto;
     overflow-x: hidden;
@@ -51,45 +59,32 @@ p {
     position:fixed;bottom:0;left:0;right:0;height:30px;
 }
 .wave {
-    background: url(wave.svg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute ;
-    width: 200%;
-    height: 40%;
-    animation: wave 10s ease-in-out infinite;
-    transform: translate3d(0, 0, 0);
-    bottom: 0;
-    z-index: 1;
-    top: -86vh;
-    margin-top: 1000px;
-
+        background: url(wave2.svg) repeat-x center center;
+        background-size: cover;
+        background-size: 110% 110%;
+        background-position: center;
+        position: absolute ;
+        width: 100%;
+        height: 100%;
+        top: -71vh;
+        transform: scale(1.1);
+        z-index: 2;
+        pointer-events: none; 
+        right: 0;
+        left: 0;
   }
-  @keyframes wave {
-    0% {
-        transform: translateX(0);
-    }
-    40% {
-        transform: translateX(-49%);
-    }
-    60% {
-        transform: translateX(-49%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-body.DarkMode {
+ 
+body.Dark {
     background: linear-gradient(
         to bottom,
         #272727 0%,
         #272727 50%,
-        #0099ff 50%,
-        #0099ff 100%
+        #0066ff 50%,
+        #0066ff 100%
         
     );}
 
-body.DarkMode h1 {
+body.Dark h1 {
             color: #ffffff;
 
     }

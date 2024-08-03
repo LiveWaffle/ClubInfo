@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap');
+
+
 .layout {
     width: 1920px;
     height: 1080px;
@@ -53,7 +55,7 @@ h1 {
     font-size: 400%;
 
 }
-p {
+#footy {
     font-family: "Noto Sans", sans-serif;
     color: #2e3d47;
     position:fixed;bottom:0;left:0;right:0;height:30px;
@@ -102,14 +104,19 @@ body.Dark h1 {
 
 .hidden {
     opacity: 0;
-    transition:all 1s;
+    transition:all 1.9s;
 }
 
 .show {
     opacity: 1;
 }
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+h3{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    color:rgb(141, 141, 141);
+    position:absolute;
+    top: 75%;
+  left: 10%;
+  text-shadow: 2px 7px 20px rgba(255, 0, 0, 0.45);
+}

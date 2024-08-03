@@ -130,7 +130,7 @@ body.Dark .wave {
 }
 
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     h1 {
         position: absolute;
         text-align: center;
@@ -166,4 +166,4 @@ body.Dark .wave {
         font-size: 14px;
         font-weight: ;
     }
-}
+} */

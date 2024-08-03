@@ -61,7 +61,7 @@ h1 {
     position:fixed;bottom:0;left:0;right:0;height:30px;
 }
 .wave {
-        background: url(wave2.svg) repeat-x center center;
+        background: url(/Images/wave2.svg) repeat-x center center;
         background-size: cover;
         background-size: 110% 110%;
         background-position: center;
@@ -124,21 +124,27 @@ h3{
 }
 
 body.Dark .wave {
-    background-image: url(wave2dark.svg);
+    background-image: url(/Images/wave2dark.svg);
     transition: all 0.5s ease;
 
 }
 
 
-@media screen and (min-wid) {
+@media screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    #Info {
+        left:50vh;
+        font-size: 20px;
+    }
     h3{
-        font-family: "Noto Sans", sans-serif;
-        font-weight: normal;
-        font-size: 10px;
-        color:#ff0000;
-        position:absolute;
-        top: 75%;
-      left: 10%;
-      text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+        left: 2px;
+        text-align: center  ;
+        font-size: 12px;
+    }
+    .wave {
+        top: -155px;
     }
 }

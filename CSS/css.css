@@ -132,19 +132,23 @@ body.Dark .wave {
 
 @media screen and (max-width: 600px) {
     h1 {
-        text-align: center;
+        position: absolute;
+        text-align: left;
         font-size: 30px;
     }
     #Info {
-        left:50vh;
         font-size: 20px;
     }
     h3{
-        left: 2px;
-        text-align: center  ;
+        left:1px;
+        text-align: center;
         font-size: 12px;
     }
     .wave {
         top: -155px;
+    }
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 }

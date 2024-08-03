@@ -81,8 +81,8 @@ body.Dark {
         to bottom,
         #272727 0%,
         #272727 50%,
-        #0066ff 50%,
-        #0066ff 100%
+        #0043A7 50%,
+        #0043A7 100%
         
     );
     transition: all 5s ease;
@@ -90,7 +90,7 @@ body.Dark {
 
 body.Dark h1 {
             color: #ffffff;
-            transition: color 0.5s ease;
+            transition: all 0.5s ease;
         }
 
 #Info{
@@ -100,6 +100,8 @@ body.Dark h1 {
     color:white;
     position:absolute;
     top: 65%;
+    text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+
 }
 
 .hidden {
@@ -114,9 +116,29 @@ h3{
     font-family: "Noto Sans", sans-serif;
     font-weight: normal;
     font-size: 25px;
-    color:rgb(141, 141, 141);
+    color:rgb(238, 238, 238);
     position:absolute;
     top: 75%;
   left: 10%;
-  text-shadow: 2px 7px 20px rgba(255, 0, 0, 0.45);
+  text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+}
+
+body.Dark .wave {
+    background-image: url(wave2dark.svg);
+    transition: all 0.5s ease;
+
+}
+
+
+@media screen and (min-wid) {
+    h3{
+        font-family: "Noto Sans", sans-serif;
+        font-weight: normal;
+        font-size: 10px;
+        color:#ff0000;
+        position:absolute;
+        top: 75%;
+      left: 10%;
+      text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+    }
 }

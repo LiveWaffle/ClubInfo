@@ -99,3 +99,17 @@ body.Dark h1 {
     position:absolute;
     top: 65%;
 }
+
+.hidden {
+    opacity: 0;
+    transition:all 1s;
+}
+
+.show {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

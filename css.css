@@ -44,7 +44,7 @@ body {
     );
     overflow-y: auto;
     overflow-x: hidden;
-
+    transition: background 5s ease, color 5s ease;
 }
 
 h1 {
@@ -82,9 +82,20 @@ body.Dark {
         #0066ff 50%,
         #0066ff 100%
         
-    );}
+    );
+    transition: all 5s ease;
+}
 
 body.Dark h1 {
             color: #ffffff;
+            transition: color 0.5s ease;
+        }
 
-    }
+#Info{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color:white;
+    position:absolute;
+    top: 65%;
+}

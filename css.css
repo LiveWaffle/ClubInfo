@@ -87,7 +87,20 @@ body {
     overflow-x: hidden;
     transition: background 5s ease, color 5s ease;
 }
-
+a {
+    position: absolute;
+    top: 140%;
+    color: #ffffff;
+    font-family: "Noto Sans", sans-serif;
+    left:44%;
+}
+#Sponsor {
+    position: absolute;
+    top: 143%;
+    color: #ffffff;
+    font-family: "Noto Sans", sans-serif;
+    left:43%; 
+}
 h1 {
     font-family: "Montserrat", sans-serif;
         color: rgb(39, 39, 39);

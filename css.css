@@ -57,7 +57,7 @@ h1 {
 }
 #footy {
     font-family: "Noto Sans", sans-serif;
-    color: #2e3d47;
+    color: #ffffff;
     position:fixed;bottom:0;left:0;right:0;height:30px;
 }
 .wave {
@@ -130,12 +130,12 @@ h3{
     color:rgb(238, 238, 238);
     position:absolute;
     top: 75%;
+    left:10%;
   text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
 }
 
 body.Dark .wave {
     background-image: url(/Images/wave2dark.svg);
-    transition: all 0.5s ease;
 
 }
 
@@ -163,7 +163,7 @@ body.Dark .wave {
     .wave {
         background-image: url(/Images/wave2.svg);
         top: -150px;
-        transform: scale(1.2);
+        transform: scale(1.1);
 
 
     }
@@ -173,10 +173,15 @@ body.Dark .wave {
         overflow-x: hidden;
     }
     #footy {
-        font-size: 14px;
-        font-weight: ;
+        font-size: 14px; 
+    }
+
+    #Future {
+        font-size: 15px;
+        top:73%;
     }
 }
 @media screen and (min-width: 501px) {
    
 }
+

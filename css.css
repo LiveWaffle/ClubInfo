@@ -1,5 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap');
+#HugeRobot {
+    position: absolute;
+    left:40%;
+    top:90%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 8px 7px rgba(36,36,36,0.26);
 
+}
+#SmallRobot {
+    position: absolute;
+    left:40%;
+    top:115%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+
+}
+#Sub {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: light;
+    font-size: 20px;
+    color:white;
+    position:absolute;
+    left: 43%;
+    top: 110%;
+    text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+}
+#Sub2 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: light;
+    font-size: 20px;
+    color:white;
+    position:absolute;
+    left: 43%;
+    top: 135%;
+    text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+}
 
 .layout {
     width: 1920px;
@@ -148,7 +185,7 @@ body.Dark .wave {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 414px) {
     h1 {
         position: absolute;
         text-align: center;
@@ -182,52 +219,56 @@ body.Dark .wave {
     }
     #footy {
         font-size: 14px; 
+        left:10px;
     }
 
     #Future {
         font-size: 15px;
         top:73%;
     }
+    #HugeRobot {
+        position: absolute;
+        left:20%;
+        top:90%;
+        width: 200px;
+        height: 200px;
+        box-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+    
+    }
+    #SmallRobot {
+        position: absolute;
+        left:20%;
+        top:113%;
+        width: 200px;
+        height: 200px;
+        box-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+    
+    }
+
+    #Sub {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: light;
+        font-size: 20px;
+        color:white;
+        position:absolute;
+        left: 25%;
+        top: 107%;
+        text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+    }
+    #Sub2 {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: light;
+        font-size: 20px;
+        color:white;
+        position:absolute;
+        left: 25%;
+        top: 130%;
+        text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+    }
+
+    
 }
 @media screen and (min-width: 501px) {
    
 }
 
-#HugeRobot {
-    position: absolute;
-    left:40%;
-    top:90%;
-    width: 300px;
-    height: 300px;
-    box-shadow: 1px 8px 7px rgba(36,36,36,0.26);
-
-}
-#SmallRobot {
-    position: absolute;
-    left:40%;
-    top:115%;
-    width: 300px;
-    height: 300px;
-    box-shadow: 1px 8px 7px rgba(36,36,36,0.26);
-
-}
-#Sub {
-    font-family: "Noto Sans", sans-serif;
-    font-weight: light;
-    font-size: 20px;
-    color:white;
-    position:absolute;
-    left: 43%;
-    top: 110%;
-    text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
-}
-#Sub2 {
-    font-family: "Noto Sans", sans-serif;
-    font-weight: light;
-    font-size: 20px;
-    color:white;
-    position:absolute;
-    left: 43%;
-    top: 135%;
-    text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
-}

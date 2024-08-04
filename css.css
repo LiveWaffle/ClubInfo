@@ -36,14 +36,16 @@ button  {
 
 }
 body {
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(
         to bottom,
         white 0%,
-        #d3d3d3 50%,
-        #0066ff 50%,
+        #d3d3d3 20%,
+        #0066ff 20%,
         #0066ff 100% 
+
     );
+    background-size: 100% 400vh;
     overflow-y: auto;
     overflow-x: hidden;
     transition: background 5s ease, color 5s ease;
@@ -56,9 +58,12 @@ h1 {
 
 }
 #footy {
+    text-align: center;
     font-family: "Noto Sans", sans-serif;
     color: #ffffff;
-    position:fixed;bottom:0;left:0;right:0;height:30px;
+    position:absolute;
+    left: 35%;
+    top: 150%;
 }
 .wave {
         background: url(/Images/wave2.svg) repeat-x center center;
@@ -80,11 +85,13 @@ body.Dark {
     background: linear-gradient(
         to bottom,
         #272727 0%,
-        #272727 50%,
-        #0043A7 50%,
+        #272727 20%,
+        #0043A7 20%,
         #0043A7 100%
         
     );
+    background-size: 100% 400vh;
+
     transition: all 5s ease;
 }
 
@@ -132,6 +139,7 @@ h3{
     top: 75%;
     left:10%;
   text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+
 }
 
 body.Dark .wave {
@@ -185,3 +193,41 @@ body.Dark .wave {
    
 }
 
+#HugeRobot {
+    position: absolute;
+    left:40%;
+    top:90%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+
+}
+#SmallRobot {
+    position: absolute;
+    left:40%;
+    top:115%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+
+}
+#Sub {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: light;
+    font-size: 20px;
+    color:white;
+    position:absolute;
+    left: 43%;
+    top: 110%;
+    text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+}
+#Sub2 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: light;
+    font-size: 20px;
+    color:white;
+    position:absolute;
+    left: 43%;
+    top: 135%;
+    text-shadow: 1px 8px 7px rgba(36,36,36,0.26);
+}
